@@ -1,6 +1,8 @@
 GANESHA- A Modern Fullstack SaaS-Platform with Next.js 13
 # SaaS-Platform-with-Next.js-13-React-Prisma-tRPC-Tailwind
-=======
+Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
+![thumbnail](https://github.com/user-attachments/assets/7662cbba-f1c7-4a8f-a61d-047f7d682469)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
