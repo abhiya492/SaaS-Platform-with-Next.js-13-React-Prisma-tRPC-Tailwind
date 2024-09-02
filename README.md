@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 GANESHA- A Modern Fullstack SaaS-Platform with Next.js 13
-=======
-<<<<<<< HEAD
 # SaaS-Platform-with-Next.js-13-React-Prisma-tRPC-Tailwind
-Quill - A Modern Fullstack SaaS-Platform
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
