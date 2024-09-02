@@ -4,13 +4,20 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { trpc } from '../_trpc/client'
 import { Loader2 } from 'lucide-react'
 
+
+
 const Page = () => {
   const router = useRouter()
 
   const searchParams = useSearchParams()
   const origin = searchParams.get('origin')
 
-  const { data, isLoading, isError, error } = trpc.authCallback.useQuery(undefined);
+  const { data, isLoading, isError, error } = trpc.authCallback.useQuery(undefined,
+    {
+      retry: true,
+      retryDelay: 500,
+    }
+  );
 
   if (isLoading) {
     return <div>Loading...</div>;
